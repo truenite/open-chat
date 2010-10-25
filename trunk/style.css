@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#principalIndex{
+	margin:0 auto 0 auto;
+	background-color:#FFFFFF;
+	width:800px; 
+	height:500px;
+	position:relative;
+	top:-15px;
+	background-image:url(imgs/index.jpg);
+	
+}
+#menuIndex{
+	position:relative;
+	top:225px;
+	left:-35px;
+}
+#menuIndex td{
+	text-align:right;
+	background:url(imgs/backgroundMenu.jpg);
+	background-repeat:no-repeat;
+	vertical-align:baseline;
+	width:200px;
+	height:17px;
+	background-color:#0362a6;
+}
+#principal{
+	margin:0 auto 0 auto;
+	background-color:#FFFFFF;
+	width:1024px; 
+	height:500px;
+	position:relative;
+	top:-15px;
+}
+label ,h4{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#0362a6;
+}
+label.little{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#0362a6;
+}
+#tablaRegistro td{
+	vertical-align:top;
+}
+input:focus {
+	border-style:inset;
+  	border-color:#0362a6;
+	border-width:2px;
+}
+input.error{
+	background-color:#FF8282;
+  	border-color:#FF8282;
+}
+input.bien{
+	background-color:#BFFFC8;
+  	border-color:#BFFFC8;
+}
+#centroChat{
+	height:400px;
+	width:800px;
+	background-color:#FFFFFF;
+	text-align:left;
+	overflow:auto;
+}
